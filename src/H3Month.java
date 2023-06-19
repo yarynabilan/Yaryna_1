@@ -1,52 +1,28 @@
 
 public class H3Month {
-    public int getNumberOfDays(int monthNumber) {
-
-        int numberOfDays;
-
+    static int getNumberOfDays(int monthNumber) {
         switch (monthNumber) {
             case 1:
-                numberOfDays = 31;
+            case 3:
+            case 5:
+            case 7:
+            case 8:
+            case 10:
+            case 12:
+                System.out.println("31");
                 break;
             case 2:
-                numberOfDays = 28;
-                break;
-            case 3:
-                numberOfDays = 31;
+                System.out.println("28");
                 break;
             case 4:
-                numberOfDays = 30;
-                break;
-            case 5:
-                numberOfDays = 31;
-                break;
             case 6:
-                numberOfDays = 30;
-                break;
-            case 7:
-                numberOfDays = 31;
-                break;
-            case 8:
-                numberOfDays = 31;
-                break;
             case 9:
-                numberOfDays = 30;
-                break;
-            case 10:
-                numberOfDays = 31;
-                break;
             case 11:
-                numberOfDays = 30;
-                break;
-            case 12:
-                numberOfDays = 31;
+                System.out.println("30");
                 break;
             default:
-                System.out.println("Невірний номер місяця.");
-                return -1;
+                System.out.println("No month with such number");
         }
-
-        return numberOfDays;
+        return monthNumber;
     }
 }
-
