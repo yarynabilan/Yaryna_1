@@ -1,0 +1,29 @@
+Index: src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\npublic class Main {\n    public static void main(String[] args) {\n        int monthNumber = 6;\n\n        H3Month h3Month = new H3Month(); // Створення екземпляра класу H3Month\n        int numberOfDays = h3Month.getNumberOfDays(monthNumber); // Виклик методу через екземпляр класу\n\n        System.out.println(\"Number of days: \" + numberOfDays);\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Main.java b/src/Main.java
+--- a/src/Main.java	
++++ b/src/Main.java	
+@@ -1,11 +1,10 @@
+-
+ public class Main {
+-    public static void main(String[] args) {
+-        int monthNumber = 6;
+-
+-        H3Month h3Month = new H3Month(); // Створення екземпляра класу H3Month
+-        int numberOfDays = h3Month.getNumberOfDays(monthNumber); // Виклик методу через екземпляр класу
+-
+-        System.out.println("Number of days: " + numberOfDays);
++        int year = 2023;
++    public static int sumOfTwoNumbers (int a, int b) {
++        int c = a + b;
++        return c;
++    }
++    public static void main(String[]args){
++        sumOfTwoNumbers(2,3);
+     }
+ }
