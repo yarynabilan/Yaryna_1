@@ -4,18 +4,18 @@ public class Homework2 {
     public static void main(String[] args) {
         int number = 555;
         int sum = calculateDigitSum(number);
-        System.out.println("Сума цифр числа " + number + " дорівнює " + sum);
+        System.out.println("The sum of number " + number + " is " + sum);
 
         String word1 = "Overloaded";
         String word2 = "Method";
         int wordLengthSum = calculateDigitSum(word1, word2);
-        System.out.println("Сума довжин слів " + word1 + " і " + word2 + " дорівнює " + wordLengthSum);
+        System.out.println("Sum of word lengths  " + word1 + " і " + word2 + " is " + wordLengthSum);
 
         boolean isPositive = checkPositiveNumberFromInput();
         if (isPositive) {
-            System.out.println("Введене число > 0");
+            System.out.println("Entered number > 0");
         } else {
-            System.out.println("Введене число не більше 0");
+            System.out.println("Entered number is lover than 0");
         }
     }
 
@@ -35,7 +35,7 @@ public class Homework2 {
 
     public static boolean checkPositiveNumberFromInput() {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Введіть число: ");
+        System.out.print("Enter the number : ");
         int number = scanner.nextInt();
         boolean isPositive = number > 0;
         return isPositive;

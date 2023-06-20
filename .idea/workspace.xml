@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ef3165a-9d5b-4e70-839b-0b1a9d67e69b" name="Changes" comment="resolve conflict in Main file" />
+    <list default="true" id="8ef3165a-9d5b-4e70-839b-0b1a9d67e69b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -197,5 +197,15 @@
     <MESSAGE value="Homework 3, please review" />
     <MESSAGE value="updated Homework 3" />
     <option name="LAST_COMMIT_MESSAGE" value="updated Homework 3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
