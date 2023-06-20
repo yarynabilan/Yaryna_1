@@ -1,0 +1,22 @@
+Index: src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Main {\n        int year = 2023;\n    public static int sumOfTwoNumbers (int a, int b) {\n        int c = a + b;\n        return c;\n    }\n    public static void main(String[]args){\n        sumOfTwoNumbers(2,3);\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Main.java b/src/Main.java
+--- a/src/Main.java	(revision 7dced2eabfaa5c173b09a9a5ee9fd1e024e72fde)
++++ b/src/Main.java	(date 1687095431400)
+@@ -4,7 +4,9 @@
+         int c = a + b;
+         return c;
+     }
+-    public static void main(String[]args){
+-        sumOfTwoNumbers(2,3);
++    public static void main(String[]args) {
++        sumOfTwoNumbers(2, 3);
++        System.out.println("test");
+     }
++
+ }

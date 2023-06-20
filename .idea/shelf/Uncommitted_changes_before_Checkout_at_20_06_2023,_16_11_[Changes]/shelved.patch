@@ -1,0 +1,25 @@
+Index: src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Main {\n        int year = 2023;\n    public static int sumOfTwoNumbers (int a, int b) {\n        int c = a + b;\n        return c;\n    }\n    public static void main(String[]args){\n        sumOfTwoNumbers(2,3);\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Main.java b/src/Main.java
+--- a/src/Main.java	(revision 872239177233f03f9a4ae35cab3b81116b35406d)
++++ b/src/Main.java	(date 1687266686724)
+@@ -1,10 +1,5 @@
+ public class Main {
+-        int year = 2023;
+-    public static int sumOfTwoNumbers (int a, int b) {
+-        int c = a + b;
+-        return c;
+-    }
+-    public static void main(String[]args){
+-        sumOfTwoNumbers(2,3);
++    public static void main(String[] args) {
++        System.out.println("Hello world!");
+     }
+-}
++}
+\ No newline at end of file
