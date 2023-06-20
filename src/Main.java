@@ -1,5 +1,6 @@
 public class Main {
-    public static int sumOfTwoNumbers(int a, int b) {
+        int year = 2023;
+    public static int sumOfTwoNumbers (int a, int b) {
         int c = a + b;
         return c;
     }
@@ -16,4 +17,3 @@ public class Main {
 
     }
 }
-
