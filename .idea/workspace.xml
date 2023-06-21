@@ -4,20 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="8f910b67-030b-4d0f-8b18-393d5ad08d6e" name="Changes" comment="">
+    <list default="true" id="8f910b67-030b-4d0f-8b18-393d5ad08d6e" name="Changes" comment="untracked files from H1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Yaryna_1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Yaryna_1/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
-=======
-    <list default="true" id="8ef3165a-9d5b-4e70-839b-0b1a9d67e69b" name="Changes" comment="" />
->>>>>>> origin/main
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-<<<<<<< HEAD
-=======
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -25,7 +21,6 @@
       </list>
     </option>
   </component>
->>>>>>> origin/main
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -34,21 +29,6 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-<<<<<<< HEAD
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/Main.java" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
-  }
-}]]></component>
-  <component name="RunManager" selected="Application.H3Month">
-=======
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
     &quot;state&quot;: &quot;OPEN&quot;
@@ -98,17 +78,9 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
->>>>>>> origin/main
-    <configuration name="H3Month" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="H3Month" />
-      <module name="Yaryna_1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Homework2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homework2" />
+  <component name="RunManager" selected="Application.Employee">
+    <configuration name="Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Employee" />
       <module name="Yaryna_1" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,10 +95,7 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-<<<<<<< HEAD
-=======
       <module name="Yaryna_1" />
->>>>>>> origin/main
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,28 +107,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StudentTest" />
+      <module name="Yaryna_1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Yaryna_1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Yaryna_1" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-<<<<<<< HEAD
-        <item itemvalue="Application.PrintХ" />
+        <item itemvalue="Application.Employee" />
+        <item itemvalue="Application.StudentTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Homework3" />
-        <item itemvalue="Application.Homework2" />
-=======
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Homework2" />
         <item itemvalue="Application.PrintХ" />
         <item itemvalue="Application.Homework3" />
->>>>>>> origin/main
-        <item itemvalue="Application.H3Month" />
       </list>
     </recent_temporary>
   </component>
-<<<<<<< HEAD
-  <component name="TaskManager">
-    <servers />
-  </component>
-=======
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -242,11 +219,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/src/Homework3.java</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StudentTest.java</url>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
->>>>>>> origin/main
 </project>
