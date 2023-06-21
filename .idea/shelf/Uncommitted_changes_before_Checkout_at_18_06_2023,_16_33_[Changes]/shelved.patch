@@ -1,0 +1,46 @@
+Index: src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Main {\n        int year = 2023;\n    public static int sumOfTwoNumbers (int a, int b) {\n        int c = a + b;\n        return c;\n    }\n    public static void main(String[]args){\n        sumOfTwoNumbers(2,3);\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Main.java b/src/Main.java
+--- a/src/Main.java	(revision 7dced2eabfaa5c173b09a9a5ee9fd1e024e72fde)
++++ b/src/Main.java	(date 1687094669155)
+@@ -4,7 +4,9 @@
+         int c = a + b;
+         return c;
+     }
+-    public static void main(String[]args){
+-        sumOfTwoNumbers(2,3);
++    public static void main(String[]args) {
++        sumOfTwoNumbers(2, 3);
++        System.out.println("test");
+     }
++
+ }
+Index: src/Homework3.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Homework3.java b/src/Homework3.java
+new file mode 100644
+--- /dev/null	(date 1687094416266)
++++ b/src/Homework3.java	(date 1687094416266)
+@@ -0,0 +1,14 @@
++
++
++public class Homework3 {
++        public static void longestWord(String home, String work, String three) {
++            if (home.length() >= work.length() && home.length() >= three.length()) {
++                System.out.println("Найдовше слово: " + home);
++            } else if (work.length() >= home.length() && work.length() >= three.length()) {
++                System.out.println("Найдовше слово: " + work);
++            } else {
++                System.out.println("Найдовше слово: " + three);
++            }
++        }
++    }
++

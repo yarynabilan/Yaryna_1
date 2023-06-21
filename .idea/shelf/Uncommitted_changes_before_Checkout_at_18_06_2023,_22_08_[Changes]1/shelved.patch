@@ -1,0 +1,239 @@
+Index: Yaryna_1.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Yaryna_1.iml b/Yaryna_1.iml
+new file mode 100644
+--- /dev/null	
++++ b/Yaryna_1.iml	
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/modules.xml	
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/Yaryna_1.iml" filepath="$PROJECT_DIR$/Yaryna_1.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	
++++ b/.idea/.gitignore	
+@@ -0,0 +1,3 @@
++# Default ignored files
++/shelf/
++/workspace.xml
+Index: src/Homework3.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Homework3.java b/src/Homework3.java
+new file mode 100644
+--- /dev/null	
++++ b/src/Homework3.java	
+@@ -0,0 +1,19 @@
++public class Homework3 {
++
++    public static void main(String[] args) {
++        longestWord("home", "work", "three");
++    }
++
++    public static void longestWord(String home, String work, String three) {
++        if (home.length() >= work.length() && home.length() >= three.length()) {
++            System.out.println("Найдовше слово: " + home);
++        } else if (work.length() >= home.length() && work.length() >= three.length()) {
++            System.out.println("Найдовше слово: " + work);
++        } else {
++            System.out.println("Найдовше слово: " + three);
++        }
++    }
++}
++
++
++
+Index: src/H3Month.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/H3Month.java b/src/H3Month.java
+new file mode 100644
+--- /dev/null	
++++ b/src/H3Month.java	
+@@ -0,0 +1,52 @@
++
++public class H3Month {
++    public int getNumberOfDays(int monthNumber) {
++
++        int numberOfDays;
++
++        switch (monthNumber) {
++            case 1:
++                numberOfDays = 31;
++                break;
++            case 2:
++                numberOfDays = 28;
++                break;
++            case 3:
++                numberOfDays = 31;
++                break;
++            case 4:
++                numberOfDays = 30;
++                break;
++            case 5:
++                numberOfDays = 31;
++                break;
++            case 6:
++                numberOfDays = 30;
++                break;
++            case 7:
++                numberOfDays = 31;
++                break;
++            case 8:
++                numberOfDays = 31;
++                break;
++            case 9:
++                numberOfDays = 30;
++                break;
++            case 10:
++                numberOfDays = 31;
++                break;
++            case 11:
++                numberOfDays = 30;
++                break;
++            case 12:
++                numberOfDays = 31;
++                break;
++            default:
++                System.out.println("Невірний номер місяця.");
++                return -1;
++        }
++
++        return numberOfDays;
++    }
++}
++
+Index: src/PrintХ.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/PrintХ.java b/src/PrintХ.java
+new file mode 100644
+--- /dev/null	
++++ b/src/PrintХ.java	
+@@ -0,0 +1,50 @@
++public class PrintХ {
++    public static void main(String[] args) {
++
++        printPattern();
++        printPattern2();
++        printPattern3();
++    }
++
++    public static void printPattern() {
++        int n = 5;
++        for (int i = 1; i <= n; i++) {
++            for (int j = 1; j <= i; j++) {
++                System.out.print("x");
++            }
++            System.out.println();
++        }
++
++        for (int i = n - 1; i >= 1; i--) {
++            for (int j = 1; j <= i; j++) {
++                System.out.print("x");
++            }
++            System.out.println();
++        }
++    }
++
++    public static void printPattern2() {
++        int n = 5;
++
++        for (int i = n; i >= 1; i--) {
++            for (int j = 1; j <= i; j++) {
++                System.out.print("x");
++            }
++            System.out.println();
++        }
++    }
++
++    public static void printPattern3() {
++        int n = 5;
++
++        for (int i = 1; i <= n; i++) {
++            for (int j = 1; j <= i; j++) {
++                System.out.print("x");
++            }
++            System.out.println();
++        }
++    }
++}
++
++
++
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/vcs.xml	
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/misc.xml	
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" default="true" project-jdk-name="openjdk-19" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
