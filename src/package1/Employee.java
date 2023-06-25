@@ -5,14 +5,16 @@ public class Employee {
     private String surname;
     private int id;
 
-    private Employee(int salary){  //private constructor
+    private Employee(int salary) {
         this.salary = salary;
     }
-    public Employee(int salary, String surname, int id) { //public constructor
+
+    public Employee(int salary, String surname, int id) {
         this.salary = salary;
         this.surname = surname;
         this.id = id;
     }
+
     private int getSalary() {
         return salary;
     }
@@ -38,11 +40,14 @@ public class Employee {
     }
 
     public static void main(String[] args) {
-        Employee employee = new Employee(20000, "Smith", 1);
-        Employee employee1 = new Employee(10000);
+        Employee employee = new Employee(20000);
+
+        employee.surname = "Smith";
+        employee.id = 1;
 
         employee.displaySalary();
         employee.displaySurname();
         employee.displayId();
     }
 }
+
